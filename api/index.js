@@ -16,7 +16,7 @@ export default function handler(req, res) {
   const responses = {
     success: {
       status: "success",
-      days_remaining: 13371337,
+      days_remaining: 2,
       reason: "Login successful - welcome caca"
     },
     banned: {
