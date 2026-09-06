@@ -3,22 +3,11 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/data.json"
-    }
-  ],
-  "headers": [
+      "destination": "/api/index"
+    },
     {
       "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        }
-      ]
+      "destination": "/api/index"
     }
   ]
 }
