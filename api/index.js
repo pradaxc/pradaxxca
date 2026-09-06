@@ -15,7 +15,7 @@ export default function handler(req, res) {
   // Daftar status respon bawaan
   const responses = {
     success: {
-      status: "success",
+      status: "ok",
       days_remaining: 2,
       reason: "Login successful - welcome caca"
     },
